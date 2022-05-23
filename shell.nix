@@ -17,6 +17,6 @@ mkShell {
   ];
 
   shellHook = ''
-    export CFLAGS="-Wno-error"
+    export CFLAGS="-Wno-error -Wno-error=format-security"
   '';
 }
