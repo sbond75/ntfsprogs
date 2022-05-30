@@ -13,10 +13,11 @@ with pkgs;
 
 mkShell {
   buildInputs = [
-    clang
+    gcc
   ];
 
   shellHook = ''
     export CFLAGS="-Wno-error -Wno-error=format-security"
+    # Run: ./configure --enable-debug "--prefix=$(realpath build)"
   '';
 }

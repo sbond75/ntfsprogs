@@ -288,11 +288,11 @@ static int parse_options(int argc, char **argv)
 			err++;
 		}
 
-		if (opts.quiet && opts.verbose) {
-			ntfs_log_error("You may not use --quiet and --verbose at the "
-					"same time.\n");
-			err++;
-		}
+		/* if (opts.quiet && opts.verbose) { */
+		/* 	ntfs_log_error("You may not use --quiet and --verbose at the " */
+		/* 			"same time.\n"); */
+		/* 	err++; */
+		/* } */
 	}
 
 	if (ver)
