@@ -17,3 +17,16 @@
 /stamp-h1
 /test/.deps/runlist.Po
 /test/Makefile
+/ntfsprogs/.libs/
+/ntfsprogs/mkntfs
+/ntfsprogs/ntfscat
+/ntfsprogs/ntfsclone
+/ntfsprogs/ntfscluster
+/ntfsprogs/ntfscmp
+/ntfsprogs/ntfscp
+/ntfsprogs/ntfsfix
+/ntfsprogs/ntfsinfo
+/ntfsprogs/ntfslabel
+/ntfsprogs/ntfsls
+/ntfsprogs/ntfsresize
+/ntfsprogs/ntfsundelete
