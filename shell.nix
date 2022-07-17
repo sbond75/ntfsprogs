@@ -19,5 +19,6 @@ mkShell {
   shellHook = ''
     export CFLAGS="-Wno-error -Wno-error=format-security"
     # Run: ./configure --enable-debug "--prefix=$(realpath build)"
+    # Then run: make all extras
   '';
 }

@@ -30,3 +30,9 @@
 /ntfsprogs/ntfsls
 /ntfsprogs/ntfsresize
 /ntfsprogs/ntfsundelete
+/ntfsprogs/ntfsck
+/ntfsprogs/ntfsdump_logfile
+/ntfsprogs/ntfsmftalloc
+/ntfsprogs/ntfsmove
+/ntfsprogs/ntfstruncate
+/ntfsprogs/ntfswipe
